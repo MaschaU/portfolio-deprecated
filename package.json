@@ -21,7 +21,9 @@
         "express-handlebars": "^3.0.0",
         "jest": "^25.1.0",
         "redis": "^2.6.2",
+        "require.js": "^1.0.0",
         "spiced-pg": "^1.0.0",
-        "supertest": "^4.0.2"
+        "supertest": "^4.0.2",
+        "webpack": "^4.44.1"
     }
 }

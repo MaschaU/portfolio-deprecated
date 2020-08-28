@@ -18,6 +18,10 @@ app.get("/", (req, res)=>{
     res.render("./landing");
 });
 
+app.get("/home", (req, res)=>{
+    res.render("home");
+});
+
 
 
 

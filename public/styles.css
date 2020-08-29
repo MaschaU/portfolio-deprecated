@@ -32,7 +32,7 @@ img {
     width: 10em;
 }
 
-.animation {
+#animation-figure {
     width: 65vw;
     height: 20vh;
     perspective: 1000px;
@@ -112,4 +112,73 @@ text-transform: uppercase;
 #particles {
     background-color: black;
     position: relative;
-  }
+}
+
+#navigation-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 2.5em;
+}
+
+span {
+    font-size: 20px;
+}
+
+button {
+    margin: 20px;
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0;
+    font-weight: 500;
+    background: linear-gradient(0deg, rgb(134,0,60) 0%, rgb(180, 1, 82) 100%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    color: rgb(241, 71, 148);
+    background: transparent;
+    box-shadow:none;
+}
+
+button:before,
+button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(241, 71, 148);
+    box-shadow:
+    -1px -1px 5px 0px #fff,
+    7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+}
+
+button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+button:hover:before,
+button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+  
+

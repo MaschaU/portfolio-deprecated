@@ -3,7 +3,7 @@
 
 <strong>Here's a preview</strong>
 <br></br>
-<img src="https://media.giphy.com/media/PgthSOX4MGy0lEqmV5/giphy.gif" height="400" width="800"/>
+<img src="https://media.giphy.com/media/PgthSOX4MGy0lEqmV5/giphy.gif" height="350" width="600"/>
 <br></br>
 <strong>Tech</strong>
 <br></br>

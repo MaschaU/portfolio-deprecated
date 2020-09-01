@@ -1,9 +1,33 @@
-<div id="particles">
-    <form>
-        <input type="text" id="first-name" placeholder="First Name" required>
-        <input type="text" id="last-name" placeholder="Last Name" required>
-        <input type="text" id="subject-line" placeholder="Subject Line" required>
-        <input type="text" id="mail-body" placeholder="Your Message" required>
-        <a href="mailto:masautkovic@gmail.com"><button><span>Send</span></button></a>
+<aside style="text-align:center; padding-top:80px;">
+    <h2 id="contact">Contact me!</h2>
+</aside>
+    <form class="form" method="post" action="https://script.google.com/macros/s/AKfycbyfAJNnQjxHtG45R9lmUakHHzm9-TEQGFNUSy28NjLVGsHtJSE/exec">
+        <div class="container">
+            <div class="row">
+                <div class="column25">
+                    <label for="fname">First Name</label>
+                </div>
+            <div class="column75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column25">
+                <label for="email">Email</label>
+            </div>
+            <div class="column75">
+                <input type="email" id="email" name="email" placeholder="name@email.com">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column25">
+                <label for="subject">Messsage</label>
+            </div>
+            <div class="column75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <button id="form-button" type="submit" value="Submit">Send</button>
+        </div>
     </form>
-</div>

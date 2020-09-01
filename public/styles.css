@@ -3,6 +3,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     height: 100vh;
     width: 100vw;
+    box-sizing: border-box;
 }
 
 #name {
@@ -205,5 +206,104 @@ h2, p {
 p {
     text-align: center;
 }
+
+form {
+    margin-top: 120px;
+}
+
+
+#clr {
+    color: #e41f7b;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #clr {
+    color: #e41f7b;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #contact {
+    color: #e41f7b;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
   
 
+  aside{
+    padding-left:20px;
+  }
+  
+  .row{
+    color: lightgrey;
+    font-family:Raleway;
+    padding-left: 30px;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #282e34;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #282e34;
+    padding: 20px;
+    width:50%;
+    margin: auto;
+  }
+
+  #form-button {
+      background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .column25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .column75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media (max-width: 600px) {
+    .column25,
+    .column75,
+    input[type="submit"] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  

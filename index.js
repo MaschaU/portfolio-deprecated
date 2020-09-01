@@ -26,7 +26,9 @@ app.get("/contact", (req, res)=>{
     res.render("contact");
 });
 
-app.post
+app.get("/thanks", (req, res)=>{
+    res.render("thanks");
+});
 
 
 

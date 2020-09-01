@@ -30,6 +30,11 @@ h2 {
     text-shadow: 0 1px #393e46, 0 2px #393e46, 2px 0 #393e46, 0 1px #393e46;
 }
 
+h3 {
+    color: white;
+    font-size: 1.5em;
+}
+
 img {
     height: 10em;
     width: 10em;
@@ -211,7 +216,6 @@ form {
     margin-top: 120px;
 }
 
-
 #clr {
     color: #e41f7b;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
@@ -264,46 +268,48 @@ form {
     float: right;
   }
   
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  
-  .container {
+.container {
     border-radius: 5px;
     background-color: #282e34;
     padding: 20px;
     width:50%;
     margin: auto;
-  }
+}
 
-  #form-button {
-      background-color: rgba(0, 0, 0, 0.2);
-  }
+#form-button {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.thankyou_message {
+    height: 100px;
+    width: 800px;
+    text
+}
   
-  .column25 {
+.column25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-  }
+}
   
-  .column75 {
+.column75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
+}
   
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
     .column25,
     .column75,
     input[type="submit"] {
       width: 100%;
       margin-top: 0;
     }
-  }
+}
   

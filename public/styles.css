@@ -35,9 +35,10 @@ h3 {
     font-size: 1.5em;
 }
 
-img {
+.sides {
     height: 10em;
     width: 10em;
+    border: 2px solid #86003c;
 }
 
 #animation-figure {
@@ -306,7 +307,7 @@ img {
     width: 400px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #e41f7b;
+    border: 4px solid #86003c;
     text-align: center;
     position: relative;
     z-index: 666;

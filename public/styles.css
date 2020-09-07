@@ -160,7 +160,6 @@ button {
     border: 1px solid rgb(241, 71, 148);
     border-left: transparent;
     border-right: transparent;
-
 }
 
 button:hover {
@@ -226,54 +225,38 @@ form {
 #clr {
     color: #e41f7b;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  }
+}
   
-  #clr {
+#contact {
     color: #e41f7b;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  #contact {
-    color: #e41f7b;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  }
+}
   
 
-  aside{
+aside{
     padding-left:20px;
-  }
+}
   
-  .row{
+.row {
     color: lightgrey;
-    font-family:Raleway;
     padding-left: 30px;
-  }
+}
   
-  input[type="text"],
-  select,
-  textarea {
+input[type="text"],
+select,
+textarea {
     width: 50%;
     padding: 12px;
     border: 1px solid #282e34;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
+}
   
-  label {
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
-  
-  input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
+}
   
 .container {
     border-radius: 5px;
@@ -290,7 +273,6 @@ form {
 .thankyou_message {
     height: 100px;
     width: 800px;
-    text
 }
   
 .column25 {
@@ -319,4 +301,42 @@ form {
       margin-top: 0;
     }
 }
+
+img {
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #e41f7b;
+    text-align: center;
+    position: relative;
+    z-index: 666;
+    top: 0;
+}
   
+
+
+
+.imageOverflowed {
+    position:absolute;
+    z-index: 666;
+    height: 410px;
+    width: 410px;
+    border-radius: 50%;
+    border: 10px solid #F59BAC;
+}
+.zoom {
+    padding: 0;
+    background-color: #152028;
+    transform: .2s;
+    height: 420px;
+    width: 400px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.zoom:hover {
+    transform: scale(1.2);
+}

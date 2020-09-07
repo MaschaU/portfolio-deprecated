@@ -15,11 +15,16 @@ app.use(express.urlencoded({extended:false}));
 
 //slash GET request
 app.get("/", (req, res)=>{
-    res.render("./landing");
+    res.render("./home");
 });
 
 app.get("/home", (req, res)=>{
+    // console.log("I am home!");
     res.render("home");
+});
+
+app.get("/aboutme", (req, res)=>{
+    res.render("aboutme");
 });
 
 app.get("/contact", (req, res)=>{

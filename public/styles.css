@@ -320,8 +320,8 @@ img {
     border: 4px solid #86003c;
     position: relative;
     margin-top: 0;
-    margin-left: 12%;
     z-index: 666;
+    
 }
 
 .zoom {
@@ -359,15 +359,15 @@ img {
     height: 100px;
     font-size: 60px;
     margin-top: 0;
-    text-align: center;
 }
 
 #aboutme-title-div {
-    width: 900px;
+    width: 100%;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    text-align: center;
 }
 
 #image-div {
@@ -378,6 +378,7 @@ img {
     position: absolute;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 #aboutme-txt-div {

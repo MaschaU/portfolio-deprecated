@@ -19,16 +19,17 @@ body {
 }
 
 h1 {
-    color: #e41f7b;
+    color: rgb(241, 10, 114);
     text-align: center;
     font-size: 6em;
     margin-bottom: 0;
     text-shadow: 0 1px #393e46, 0 2px #393e46, 2px 0 #393e46, 0 1px #393e46;
+    line-height: 26pt;
     
 }
 
 h2 {
-    color: #e41f7b;
+    color: rgb(241, 10, 114);
     text-align: center;
     font-size: 2.5em;
     margin-top: 15px;
@@ -230,12 +231,12 @@ form {
 }
 
 #clr {
-    color: #e41f7b;
+    color: #86003c;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
   
 #contact {
-    color: #e41f7b;
+    color: #86003c;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
   

@@ -314,8 +314,9 @@ label {
 }
 
 img {
-    width: 400px;
-    height: 200px;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 4px solid #86003c;
     position: relative;
@@ -328,8 +329,8 @@ img {
     padding: 0;
     background-color: #152028;
     transform: .2s;
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     cursor: pointer;
     
 }

@@ -53,14 +53,14 @@ p {
 }
 
 #animation-figure {
-    width: 65vw;
-    height: 20vh;
-    perspective: 1000px;
+    width: 60%;
+    height: 30%;
+    perspective: 2300px;
     margin-top: 25em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: 20%;
     position: absolute;
-    top: 0;
+    top: 10%;
 }
 
 .cube {
@@ -312,14 +312,8 @@ label {
 
 img {
     object-fit: cover;
-    width: 250px;
-    height: 250px;
     border-radius: 50%;
     border: 4px solid #86003c;
-    position: relative;
-    margin-top: 0;
-    z-index: 666;
-    
 }
 
 .zoom {
@@ -348,38 +342,29 @@ img {
     flex-wrap: nowrap;
     margin-left: auto;
     margin-right: auto;
-    height: 900px;
     width: 100vw;
     position: absolute;
     top: 100px;
 }
 
-
-
 #aboutme-title {
     width: 100%;
     height: 100px;
     font-size: 90px;
-    margin-top: -10px;
+    margin-top: 0;
 }
 
 #aboutme-title-div {
     width: 100%;
-    height: 150px;
+    height: 170px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
     text-align: center;
 }
 
 #image-div {
     height: 250px;
     width: 100%;
-    margin: 0;
-    margin-top: -310px;
-    position: absolute;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
 }
 

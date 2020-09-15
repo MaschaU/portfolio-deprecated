@@ -41,11 +41,6 @@ h3 {
     font-size: 1.5em;
 }
 
-p {
-    color: white;
-    font-size: 30px;
-}
-
 .sides {
     height: 10em;
     width: 10em;
@@ -207,6 +202,7 @@ button:after{
     left:0;
     bottom:0;
 }
+
 button:hover:before,
 button:hover:after{
     width:100%;
@@ -220,10 +216,8 @@ h2, p {
     top: 50px;
     left: 0;
     right: 0;
-}
-
-p {
-    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
 }
 
 form {
@@ -264,6 +258,7 @@ textarea {
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-size: 20px;
 }
   
 .container {
@@ -391,6 +386,35 @@ strong {
     line-height: 28pt;
     width: 500px;
     height: 100px;
+    font-weight: 900;
+}
+
+#portfolio-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.image-portfolio {
+    width: 500px;
+    height: 300px;
+    border-radius: 0;
+}
+
+#plate-check, #network, #memegur, #towelday-petition {
+    margin: 100px;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.github-links {
+    text-decoration: none;
 }
 
 

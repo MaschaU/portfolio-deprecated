@@ -28,12 +28,14 @@ h1 {
     
 }
 
-h2 {
-    color: rgb(241, 10, 114);
+h5 {
+    color: #86003c;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.9em;
     margin-top: 15px;
-    text-shadow: 0 1px #393e46, 0 2px #393e46, 2px 0 #393e46, 0 1px #393e46;
+    margin-bottom:  -50px;
+    text-shadow: 0 0.5px hsl(298, 79%, 87%), 0 0.5px #f7b4d5, 0.5px 0 #eee0e9, 0 0.5px #f0ebef;
+    font-weight: bold;
 }
 
 h3 {
@@ -139,6 +141,7 @@ text-transform: uppercase;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 span {
@@ -229,12 +232,6 @@ form {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
   
-#contact {
-    color: #86003c;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-}
-  
-
 aside{
     padding-left:20px;
 }

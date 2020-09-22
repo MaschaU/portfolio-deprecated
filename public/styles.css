@@ -313,7 +313,7 @@ label {
 img {
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #86003c;
+    border: 7px solid #86003c;
 }
 
 .zoom {
@@ -408,10 +408,13 @@ strong {
     width: 500px;
     height: 300px;
     border-radius: 0;
+    margin-bottom: 15px;
+    border: 2px solid #86003c; 
 }
 
 #plate-check, #network, #memegur, #towelday-petition {
     margin: 50px;
+    width: 500px;
 }
 
 h4 {
@@ -424,9 +427,13 @@ h4 {
     text-decoration: none;
 }
 
-
-
-
-
-
-
+h7 {
+    width: 100%;
+    color: white;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+}

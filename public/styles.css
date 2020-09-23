@@ -419,7 +419,7 @@ strong {
 
 h4 {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
 }
 
@@ -427,13 +427,27 @@ h4 {
     text-decoration: none;
 }
 
-h7 {
+.portfolio-description {
     width: 100%;
     color: white;
     left: 0;
     right: 0;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 300;
     text-align: center;
     margin-top: 10px;
 }
+
+.project-name {
+    cursor: pointer;
+    width: 60%;
+}
+
+.project-name:hover {
+    color: #b48097; 
+}
+
+
+
+
+

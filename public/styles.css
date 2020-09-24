@@ -1,8 +1,8 @@
 body {
     background-color: #000000;
-    font-family: 'Josefin Sans', sans-serif;
-    height: 100vh;
-    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -19,35 +19,26 @@ body {
 }
 
 h1 {
-    color: rgb(241, 10, 114);
+    color: #c2075b;
     text-align: center;
     font-size: 6em;
     margin-bottom: 0;
-    text-shadow: 0 1px #393e46, 0 2px #393e46, 2px 0 #393e46, 0 1px #393e46;
+    text-shadow: 0 0 #fcfbdd, 0 0.5px #dddcc2, 0.5px 0 #fdfdf7, 0 0 #dddcc2;
     line-height: 26pt;
     
 }
 
-h5 {
-    color: #86003c;
-    text-align: center;
-    font-size: 3.9em;
-    margin-top: 15px;
-    margin-bottom:  -50px;
-    text-shadow: 0 0.5px hsl(298, 79%, 87%), 0 0.5px #f7b4d5, 0.5px 0 #eee0e9, 0 0.5px #f0ebef;
-    font-weight: bold;
-}
 
 h3 {
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
+    color: #dddcc2;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 25px;
 }
 
 .sides {
     height: 10em;
     width: 10em;
-    border: 2px solid #86003c;
 }
 
 #animation-figure {
@@ -65,7 +56,7 @@ h3 {
     position: relative;
     transform-style: preserve-3d;
     transform: translateZ(-100px);
-    animation: spin 10s linear 0s infinite forwards;
+    animation: spin 20s linear 0s infinite forwards;
     cursor: pointer;
 }
 
@@ -76,8 +67,8 @@ h3 {
 .cube-side {
 width: 260px;
 height: 260px;
-color: #86003c;
-border: 4px solid #86003c;
+color: #dddcc2;
+border: 2px solid #dddcc2;
 background-color: #393e46;
 position: absolute;
 box-sizing: border-box;
@@ -130,7 +121,7 @@ text-transform: uppercase;
 #particles {
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #010101;
     /*position: relative;*/
     position: fixed;
     z-index: -2;
@@ -156,7 +147,7 @@ button {
     width: 130px;
     height: 40px;
     line-height: 42px;
-    color: #fff;
+    color: #dddcc2;
     border-radius: 5px;
     padding: 0;
     font-weight: 500;
@@ -214,7 +205,7 @@ button:hover:after{
 }
 
 h2, p {
-    color: white;
+    color: #dddcc2;
     margin-top: 100px;
     position: absolute;
     top: 50px;
@@ -244,8 +235,8 @@ aside{
 }
   
 .row {
-    color: lightgrey;
-    padding-left: 30px;
+    color: #dddcc2;
+    padding-left: 0;
 }
   
 input[type="text"],
@@ -276,6 +267,8 @@ label {
 
 #form-button {
     background-color: rgba(0, 0, 0, 0.2);
+    margin-left: -5px;
+    margin-top: 40px;
 }
 
 .thankyou_message {
@@ -301,27 +294,20 @@ label {
     clear: both;
 }
   
-@media (max-width: 600px) {
-    .column25,
-    .column75,
-    input[type="submit"] {
-      width: 100%;
-      margin-top: 0;
-    }
-}
+
 
 img {
     object-fit: cover;
     border-radius: 50%;
-    border: 7px solid #86003c;
+    border: 2px solid  #f7f3b6;
 }
 
 .zoom {
     padding: 0;
     background-color: #152028;
     transform: .2s;
-    height: 250px;
-    width: 250px;
+    height: 270px;
+    width: 370px;
     cursor: pointer;
     
 }
@@ -342,7 +328,7 @@ img {
     flex-wrap: nowrap;
     margin-left: auto;
     margin-right: auto;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     top: 100px;
 }
@@ -351,7 +337,10 @@ img {
     width: 100%;
     height: 100px;
     font-size: 90px;
+    font-weight: 500;
     margin-top: 0;
+    margin-bottom: 10px;
+    color: #faf7cf;
 }
 
 #aboutme-title-div {
@@ -360,6 +349,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #image-div {
@@ -378,7 +368,7 @@ img {
 #aboutme-txt {
     height: 450px;
     width: 80%;
-    margin-top: 430px;
+    margin-top: 460px;
     text-align: center;
     vertical-align: middle;
     line-height: 35pt;
@@ -405,20 +395,25 @@ strong {
 }
 
 .image-portfolio {
-    width: 500px;
+    width: 530px;
     height: 300px;
-    border-radius: 0;
+    border-radius: 10px;
     margin-bottom: 15px;
-    border: 2px solid #86003c; 
+    border: 1px solid #f1f0d0; 
+}
+
+.image-portfolio:hover {
+    border: 3px groove #f1f0d0;
 }
 
 #plate-check, #network, #memegur, #towelday-petition {
     margin: 50px;
-    width: 500px;
+    margin-bottom: 30px;
+    width: 530px;
 }
 
 h4 {
-    color: white;
+    color: #dddcc2;
     font-size: 40px;
     margin: 10px;
 }
@@ -428,24 +423,46 @@ h4 {
 }
 
 .portfolio-description {
-    width: 100%;
-    color: white;
+    width: 500px;
+    color: #dddcc2;
     left: 0;
     right: 0;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 400;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .project-name {
     cursor: pointer;
     width: 60%;
+    font-size: 30px;
+    color: #dddcc2;
 }
 
 .project-name:hover {
-    color: #b48097; 
+    color: #c2075b; 
 }
+
+#contact {
+    font-size: 56px;
+    font-weight: normal;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .column25,
+    .column75,
+    input[type="submit"] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+
 
 
 

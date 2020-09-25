@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    color: #c2075b;
+    color: #ed8d8d;;
     text-align: center;
     font-size: 5em;
     margin-bottom: 0;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h3 {
-    color: #dddcc2;
+    color: #ed8d8d;
     font-size: 0.8em;
     text-align: left;
     margin-left: 0;
@@ -39,6 +39,7 @@ h3 {
 .sides {
     height: 10em;
     width: 10em;
+    border: transparent;
 }
 
 #animation-figure {
@@ -161,14 +162,14 @@ button {
     border-left: transparent;
     box-shadow: none;
     border-radius: 5px;
-    box-shadow:inset 2px 2px 2px 0px rgba(221, 12, 158, 0.452),
-    7px 7px 20px 0px rgba(231, 65, 142, 0.438),
-    4px 4px 5px 0px rgba(245, 111, 194, 0.596);
+    box-shadow:inset 2px 2px 2px 0px #ed8d8d96,
+    7px 7px 20px 0px #ed8d8d6e,
+    4px 4px 5px 0px #ed8d8d44;
     transition:400ms ease all;
 }
 
 button:hover {
-    color: rgb(221, 13, 107);
+    color: #ed8d8d;
     background: transparent;
     box-shadow:none;
 }
@@ -181,7 +182,7 @@ button:after{
     right:0;
     height:2px;
     width:0;
-    background: rgb(241, 71, 148);
+    background: rgba(241, 71, 148, 0.616);
     box-shadow:
     -1px -1px 5px 0px #fff,
     7px 7px 20px 0px #0003,
@@ -260,7 +261,7 @@ label {
     border-radius: 5px;
     background-color: #282e34;
     padding: 1.25em;
-    width:40%;
+    width:33%;
     margin: auto;
 }
 
@@ -322,7 +323,7 @@ img {
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
-    color: #faf7cf;
+    color: #f7f3b6;
 }
 
 #aboutme-title-div {
@@ -362,6 +363,7 @@ img {
 }
 
 strong {
+    color:  #ed8d8d;
     line-height: 28pt;
     width: 31.25em;
     height: 6.25em;
@@ -383,12 +385,9 @@ strong {
     height: 300px;
     border-radius: 10px;
     margin-bottom: 15px;
-    border: 1px solid #f1f0d0; 
+    border: 0.5px solid #ed8d8d;
 }
 
-.image-portfolio:hover {
-    border: 3px groove #a75454;
-}
 
 #plate-check, #network, #memegur, #towelday-petition {
     margin: 50px;
@@ -408,7 +407,7 @@ h4 {
 
 .portfolio-description {
     width: 24em;
-    color: #dddcc2;
+    color: #dfdcc5;
     left: 0;
     right: 0;
     font-size: 1.2em;
@@ -419,13 +418,13 @@ h4 {
 
 .project-name {
     cursor: pointer;
-    width: 60%;
+    width: 56%;
     font-size: 1.875em;
-    color: #ed8d8d;
+    color: #cecdad;
 }
 
 .project-name:hover {
-    color: #c2075b; 
+    color: #ed8d8d; 
 }
 
 #contact {
@@ -478,6 +477,15 @@ a {
 
 #github-logo {
     margin-right: -10px;
+}
+
+#linkedin {
+    display: grid;
+    grid-template-columns: 7.5em auto;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65em;
 }
 
 @media (max-width: 600px) {

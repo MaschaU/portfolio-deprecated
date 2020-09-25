@@ -44,7 +44,7 @@ h3 {
 
 #animation-figure {
     width: 60%;
-    height: 30%;
+    height: 45%;
     perspective: 144em;
     margin-top: 25em;
     margin-left: 20%;
@@ -488,7 +488,7 @@ a {
     margin-top: 65em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .column25,
     .column75,
     input[type="submit"] {
@@ -498,6 +498,139 @@ a {
 
     body {
         font-size: small;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    #animation-figure {
+        height: 60%
+    }
+
+    #navigation-div {
+        height: 10.5em;
+        width: 20em;
+        display: grid;
+        grid-template-columns: 15em 15em;
+        grid-template-rows: 5em 5em;
+        margin-bottom: 50px;
+    }
+
+    #aboutme-homebtn {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #aboutme-btn {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #linkedin {
+        margin-top: 122em;
+        height: 50px;
+        width: 100%;
+    }
+
+    .logos-txt {
+        margin-top: -2px;
+        width: 95%;
+    }
+
+    #portfolio-grid {
+       flex-direction: column; 
+       width: 100%;
+       margin-left: 0;
+    }
+
+    #plate-check, #network, #memegur, #towelday-petition {
+        width: 290px;
+    }
+
+    .image-portfolio {
+        width: 315px;
+        height: 190px;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-description {
+        width: 15em;
+        font-size: 1.5em;
+    }
+
+    #plate-check, #network, #memegur, #towelday-petition {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    #portfolio-links {
+        width: 100%;
+    }
+
+    #github-logo-txt {
+        margin-top: 7px;
+    }
+
+    #codepen-logo-txt {
+        margin-bottom: 1px;
+    }
+
+    #contact {
+        margin-top: 4em;
+    }
+
+    form {
+        margin-top: 9.5em;
+    }
+
+    .container {
+        width: 86%;
+        margin-left: 5px;
+    }
+
+    h3 {
+        margin-top: 0.3em;
+        font-size: 1em;
+    }
+
+    #thankyou_message {
+        width: 33em;
+    }
+}
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 4.3em;
+    }
+
+    #animation-figure {
+        height: 70%;
+    }
+
+    #navigation-div {
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+    #aboutme-title {
+        font-size: 4.3em;
+    }
+
+    #image-div {
+        margin-left: -8px;
+    }
+
+    .logos-txt {
+        margin-top: -5px;
+    }
+
+    #portfolio-grid {
+        margin-left: -21px;
     }
 }
 

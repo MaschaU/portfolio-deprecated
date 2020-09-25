@@ -3,7 +3,13 @@
 
 <strong>Here's a preview</strong>
 <br></br>
-<img src="https://media.giphy.com/media/PgthSOX4MGy0lEqmV5/giphy.gif" height="350" width="600"/>
+<img src="https://i.imgur.com/hMd4msA.png" height="350" width="600"/>
+<br></br>
+<img src="https://i.imgur.com/MuAgCqT.png" height="350" width="600"/>
+<br></br>
+<img src="https://i.imgur.com/DxmI2T2.png" height="350" width="600"/>
+<br></br>
+<img src="https://i.imgur.com/dOZvCNW.png" height="350" width="600"/>
 <br></br>
 <strong>Tech</strong>
 <br></br>

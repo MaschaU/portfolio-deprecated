@@ -488,7 +488,7 @@ a {
     margin-top: 65em;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .column25,
     .column75,
     input[type="submit"] {
@@ -500,21 +500,30 @@ a {
         font-size: small;
     }
 
+    #animation-figure {
+        height: 0;
+    }
+
     h1 {
         font-size: 4.5em;
     }
 
-    #animation-figure {
-        height: 60%
+    #headshot {
+        margin-left: -12px;
     }
 
     #navigation-div {
         height: 10.5em;
-        width: 20em;
+        width: 414px;
         display: grid;
         grid-template-columns: 15em 15em;
         grid-template-rows: 5em 5em;
         margin-bottom: 50px;
+        margin-left: -9px;
+    }
+
+    #aboutme-txt {
+        margin-left: 35px;
     }
 
     #aboutme-homebtn {
@@ -538,14 +547,15 @@ a {
     }
 
     .logos-txt {
-        margin-top: -2px;
+        margin-top: -5px;
         width: 95%;
+        margin-left: -10px;
     }
 
     #portfolio-grid {
        flex-direction: column; 
        width: 100%;
-       margin-left: 0;
+       margin-left: -11px;
     }
 
     #plate-check, #network, #memegur, #towelday-petition {
@@ -589,8 +599,8 @@ a {
     }
 
     .container {
-        width: 86%;
-        margin-left: 5px;
+        width: 85%;
+        margin-left: 7px;
     }
 
     h3 {
@@ -598,27 +608,32 @@ a {
         font-size: 1em;
     }
 
-    #thankyou_message {
-        width: 33em;
+    .thankyou_message {
+        width: 28em;
     }
 }
 
-@media (max-width: 380px) {
+@media screen (max-width: 380px) {
     h1 {
         font-size: 4.3em;
     }
 
     #animation-figure {
-        height: 70%;
+        height: 0;
     }
 
     #navigation-div {
        margin-left: auto;
-       margin-right: auto; 
+       margin-right: auto;
+       width: 377px; 
     }
 
     #aboutme-title {
         font-size: 4.3em;
+    }
+
+    #aboutme-txt {
+        margin-left: 27px;
     }
 
     #image-div {
@@ -630,7 +645,19 @@ a {
     }
 
     #portfolio-grid {
-        margin-left: -21px;
+        margin-left: -28px;
+    }
+
+    .container {
+        margin-left: 5px;
+    }
+
+    .thankyou_message {
+        width: 25em;
+    }
+
+    h3 {
+        margin-top: 0;
     }
 }
 

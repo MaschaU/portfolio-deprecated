@@ -4,6 +4,7 @@ body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+    font-size: large;
 }
 
 .body-container {
@@ -21,7 +22,7 @@ body {
 h1 {
     color: #c2075b;
     text-align: center;
-    font-size: 6em;
+    font-size: 5em;
     margin-bottom: 0;
     text-shadow: 0 0 #fcfbdd, 0 0.5px #dddcc2, 0.5px 0 #fdfdf7, 0 0 #dddcc2;
     line-height: 26pt;
@@ -29,9 +30,10 @@ h1 {
 
 h3 {
     color: #dddcc2;
-    font-size: 1.3em;
+    font-size: 0.8em;
     text-align: left;
     margin-left: 0;
+    margin-top: 1.3em;
 }
 
 .sides {
@@ -130,7 +132,7 @@ h3 {
 }
 
 span {
-    font-size: 1.7em;
+    font-size: 1.53em;
 }
 
 button {
@@ -214,7 +216,7 @@ h2, p {
 
 #home-title {
     font-weight: bold;
-    font-size: 2.3em;
+    font-size: 2em;
     margin-top: 3.5em;
 }
 
@@ -229,6 +231,7 @@ form {
   
 aside{
     padding-left: 3.25em;
+    text-align:center;
 }
   
 .row {
@@ -239,7 +242,7 @@ aside{
 input[type="text"],
 select,
 textarea {
-    width: 50%;
+    width: 70%;
     padding: 0.75em;
     border: 1px solid #282e34;
     border-radius: 4px;
@@ -257,8 +260,7 @@ label {
     border-radius: 5px;
     background-color: #282e34;
     padding: 1.25em;
-    width:50%;
-    height: 28.75em;
+    width:40%;
     margin: auto;
 }
 
@@ -269,7 +271,7 @@ label {
 }
 
 .thankyou_message {
-    height: 6.25em;
+    height: 2em;
     width: 50em;
 }
   
@@ -316,8 +318,7 @@ img {
 
 #aboutme-title {
     width: 100%;
-    height: 6.25em;
-    font-size: 5.7em;
+    font-size: 4.5em;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
@@ -326,7 +327,7 @@ img {
 
 #aboutme-title-div {
     width: 100%;
-    height: 10.625em;
+    height: 8.625em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -346,15 +347,13 @@ img {
 
 #aboutme-txt-div {
     width: 56.3em;
-    height: 56.3em;
     left: auto;
     right: auto;
 }
 
 #aboutme-txt {
-    height: 28.5em;
     width: 80%;
-    margin-top: 17em;
+    margin-top: 15em;
     text-align: center;
     vertical-align: middle;
     line-height: 35pt;
@@ -388,7 +387,7 @@ strong {
 }
 
 .image-portfolio:hover {
-    border: 3px groove #f1f0d0;
+    border: 3px groove #a75454;
 }
 
 #plate-check, #network, #memegur, #towelday-petition {
@@ -412,7 +411,7 @@ h4 {
     color: #dddcc2;
     left: 0;
     right: 0;
-    font-size: 1.375em;
+    font-size: 1.2em;
     font-weight: 400;
     text-align: center;
     margin-top: 0.315em;
@@ -422,7 +421,7 @@ h4 {
     cursor: pointer;
     width: 60%;
     font-size: 1.875em;
-    color: #dddcc2;
+    color: #ed8d8d;
 }
 
 .project-name:hover {
@@ -432,7 +431,7 @@ h4 {
 #contact {
     font-size: 3.5em;
     font-weight: normal;
-    margin-top: 3.5em;
+    margin-top: 2.5em;
 }
 
 a {
@@ -441,26 +440,44 @@ a {
     text-decoration: none;
 }
 
-#codepen-link:hover {
-    text-decoration: underline;
+#portfolio-links {
+    display: grid;
+    grid-template-rows: 4em;
+    grid-template-columns: 7.5em auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
 }
 
-#codepen {
-    width: 100%;
-    height: 5em;
-    display: flex;
-    flex-wrap: nowrap;
-    left: auto;
-    right: auto;
-}
-
-#codepen-txt {
-    height: 3em;
-    text-align: center;
+.logos-txt {
+    grid-column-start: 2;
+    justify-self: start;
+    text-align: left;
     color: #dddcc2;
     width: 100%;
-    font-size: 1.7em;
+    font-size: 1.4em;
     font-weight: normal;
+    margin-top: 10px;
+    margin-left: 0;
+    color: #ed8d8d;
+}
+
+#github-logo-txt {
+    grid-row-start: 2;
+}
+
+.logos {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    margin-left: 3em;
+    margin-right: 0;
+    border: 1px solid #ed8d8d;
+}
+
+#github-logo {
+    margin-right: -10px;
 }
 
 @media (max-width: 600px) {
@@ -469,6 +486,10 @@ a {
     input[type="submit"] {
       width: 100%;
       margin-top: 0;
+    }
+
+    body {
+        font-size: small;
     }
 }
 

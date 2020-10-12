@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    color: #ed8d8d;;
+    color: #ed8d8d;
     text-align: center;
     font-size: 5em;
     margin-bottom: 0;
@@ -807,8 +807,6 @@ a {
     textarea, #fname {
         width: 133%;
     }
-
-
 
     .thankyou_message {
         width: 15em;
